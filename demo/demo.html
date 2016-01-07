@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="../js/jquery.toastx.js"></script>
+</head>
+<body>
+<br />
+<div class="test1 1x">显示消息1</div>
+<div class="test2 2x">显示消息2</div>
+<script type="text/javascript">
+	$(".test1").click(function(){
+		$.toast({'message':'显示消息1...'}).show();
+	});
+	
+	$(".test2").click(function(){
+		$.toastx('显示消息2...');
+	});
+</script>
+<br />
+<br />
+</body>
+</html>
